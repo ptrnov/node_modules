@@ -55,5 +55,5 @@ require('./middleware/routes.js')(app,connection,io,Session,cookieParser,session
 	Running our application  
 */
 http.listen(8890,function(){
-    console.log("Listening on http://lukisongroup.com:8890");
+    console.log("Listening on http://127.0.0.1:8890");
 });

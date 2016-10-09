@@ -208,7 +208,7 @@ $scope.get_users_to_chats=function(){
 	Function To send messages
 */  
 $scope.send_msg=function(fromModal,socketId,toid){
-	alert(fromModal+"-"+socketId+"-"+toid);
+	//alert(fromModal+"-"+socketId+"-"+toid);
 	if(fromModal==""){
 		if($scope.send_to_userinfo != ""){
 			if($scope.send_text==""){

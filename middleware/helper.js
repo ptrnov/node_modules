@@ -81,7 +81,7 @@ var self={
 			query:"INSERT INTO conversation SET ?",
 			connection:connection,
 			insert_data:{
-				id:'',						
+				//id:'',						
 				from_id:data.from_id,
 				to_id:data.to_id,
 				timestamp:Math.floor(new Date() / 1000),
@@ -100,7 +100,7 @@ var self={
 			query:"INSERT INTO conversation_reply SET ?",
 			connection:connection,
 			insert_data:{
-				id:'',						
+				//id:'',						
 				reply:data.msg,
 				from_id:data.from_id,
 				to_id:data.to_id,
