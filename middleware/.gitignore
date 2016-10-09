@@ -1,2 +1,3 @@
 *.js
+!db_test.js
 !.gitignore
