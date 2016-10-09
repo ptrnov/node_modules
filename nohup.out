@@ -31501,3 +31501,3274 @@ EofPacket {
   serverStatus: 34,
   protocol41: true }
 
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'N\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select id,name,p_photo,online from user where id=\'1\'' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 4, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16899,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { id: 1, name: 'piter', p_photo: '', online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'Y\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select DISTINCT con_id from conversation where to_id=\'2\' or from_id=\'2\' order by timestamp desc ' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select DISTINCT con_id from conversation where to_id=\'1\' or from_id=\'1\' order by timestamp desc ' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 1, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'conversation',
+  orgTable: 'conversation',
+  name: 'con_id',
+  orgName: 'con_id',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 32768,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 0 }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 1, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'conversation',
+  orgTable: 'conversation',
+  name: 'con_id',
+  orgName: 'con_id',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 32768,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 1 }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 0 }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'0\' and to_id=\'2\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'0\' and to_id=\'2\' or con_id=\'0\' and from_id=\'2\' limit 1' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'1\' and to_id=\'1\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'1\' and to_id=\'1\' or con_id=\'1\' and from_id=\'1\' limit 1' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'0\' and to_id=\'1\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'0\' and to_id=\'1\' or con_id=\'0\' and from_id=\'1\' limit 1' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 3,
+  name: 'radumta',
+  password: 'asd123',
+  p_photo: null,
+  timestamp: 0,
+  online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 1,
+  name: 'piter',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 2,
+  name: 'wawan',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'N\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select id,name,p_photo,online from user where id=\'1\'' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 4, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16899,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { id: 1, name: 'piter', p_photo: '', online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'Y\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select DISTINCT con_id from conversation where to_id=\'2\' or from_id=\'2\' order by timestamp desc ' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select DISTINCT con_id from conversation where to_id=\'1\' or from_id=\'1\' order by timestamp desc ' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 1, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'conversation',
+  orgTable: 'conversation',
+  name: 'con_id',
+  orgName: 'con_id',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 32768,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 0 }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 1, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'conversation',
+  orgTable: 'conversation',
+  name: 'con_id',
+  orgName: 'con_id',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 32768,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 1 }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 0 }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'0\' and to_id=\'2\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'0\' and to_id=\'2\' or con_id=\'0\' and from_id=\'2\' limit 1' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'1\' and to_id=\'1\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'1\' and to_id=\'1\' or con_id=\'1\' and from_id=\'1\' limit 1' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'0\' and to_id=\'1\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'0\' and to_id=\'1\' or con_id=\'0\' and from_id=\'1\' limit 1' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 3,
+  name: 'radumta',
+  password: 'asd123',
+  p_photo: null,
+  timestamp: 0,
+  online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 1,
+  name: 'piter',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 2,
+  name: 'wawan',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'N\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select id,name,p_photo,online from user where id=\'1\'' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 4, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16899,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { id: 1, name: 'piter', p_photo: '', online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select id,name,p_photo,online from user where id=\'2\'' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 4, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16899,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { id: 2, name: 'wawan', p_photo: '', online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'N\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 0  Warnings: 0',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'Y\' where id=\'2\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 0  Warnings: 0',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select DISTINCT con_id from conversation where to_id=\'2\' or from_id=\'2\' order by timestamp desc ' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 1, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'conversation',
+  orgTable: 'conversation',
+  name: 'con_id',
+  orgName: 'con_id',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 32768,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 0 }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'0\' and to_id=\'2\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'0\' and to_id=\'2\' or con_id=\'0\' and from_id=\'2\' limit 1' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 1,
+  name: 'piter',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select * from user where password=\'asd123\' and name=\'piter\' ' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16899,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 1,
+  name: 'piter',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'Y\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 1  Warnings: 0',
+  protocol41: true,
+  changedRows: 1 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select id,name,p_photo,online from user where id=\'1\'' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 4, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16899,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'user',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { id: 1, name: 'piter', p_photo: '', online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 2,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'update user set online=\'Y\' where id=\'1\'' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 1,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '(Rows matched: 1  Changed: 0  Warnings: 0',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select DISTINCT con_id from conversation where to_id=\'2\' or from_id=\'2\' order by timestamp desc ' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select DISTINCT con_id from conversation where to_id=\'1\' or from_id=\'1\' order by timestamp desc ' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 1, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'conversation',
+  orgTable: 'conversation',
+  name: 'con_id',
+  orgName: 'con_id',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 32768,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 0 }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 1, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'conversation',
+  orgTable: 'conversation',
+  name: 'con_id',
+  orgName: 'con_id',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 32768,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 1 }
+
+<-- RowDataPacket
+RowDataPacket { con_id: 0 }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComPingPacket
+ComPingPacket { command: 14 }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'0\' and to_id=\'2\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'0\' and to_id=\'2\' or con_id=\'0\' and from_id=\'2\' limit 1' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'1\' and to_id=\'1\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'1\' and to_id=\'1\' or con_id=\'1\' and from_id=\'1\' limit 1' }
+
+<-- OkPacket
+OkPacket {
+  fieldCount: 0,
+  affectedRows: 0,
+  insertId: 0,
+  serverStatus: 2,
+  warningCount: 0,
+  message: '',
+  protocol41: true,
+  changedRows: 0 }
+
+--> ComQueryPacket
+ComQueryPacket {
+  command: 3,
+  sql: 'select u.* from conversation as c left join user as u on \t\t\t\t\t\t\t\t  u.id =case when (con_id=\'0\' and to_id=\'1\') \t\t\t\t\t\t\t\tTHEN \t\t\t\t\t\t\t\t  c.from_id \t\t\t\t\t\t\t\tELSE \t\t\t\t\t\t\t\t  c.to_id \t\t\t\t\t\t\t\tEND \t\t\t\t\t\t\t\twhere con_id=\'0\' and to_id=\'1\' or con_id=\'0\' and from_id=\'1\' limit 1' }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 3,
+  name: 'radumta',
+  password: 'asd123',
+  p_photo: null,
+  timestamp: 0,
+  online: 'N' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 1,
+  name: 'piter',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- ResultSetHeaderPacket
+ResultSetHeaderPacket { fieldCount: 6, extra: undefined }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'id',
+  orgName: 'id',
+  charsetNr: 63,
+  length: 22,
+  type: 3,
+  flags: 16898,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'name',
+  orgName: 'name',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'password',
+  orgName: 'password',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'p_photo',
+  orgName: 'p_photo',
+  charsetNr: 33,
+  length: 600,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'timestamp',
+  orgName: 'timestamp',
+  charsetNr: 63,
+  length: 255,
+  type: 3,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- FieldPacket
+FieldPacket {
+  catalog: 'def',
+  db: 'dbm005',
+  table: 'u',
+  orgTable: 'user',
+  name: 'online',
+  orgName: 'online',
+  charsetNr: 33,
+  length: 6,
+  type: 253,
+  flags: 0,
+  decimals: 0,
+  default: undefined,
+  zeroFill: false,
+  protocol41: true }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
+<-- RowDataPacket
+RowDataPacket {
+  id: 2,
+  name: 'wawan',
+  password: 'asd123',
+  p_photo: '',
+  timestamp: 0,
+  online: 'Y' }
+
+<-- EofPacket
+EofPacket {
+  fieldCount: 254,
+  warningCount: 0,
+  serverStatus: 34,
+  protocol41: true }
+
